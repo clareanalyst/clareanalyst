@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Gilda+Display&display=swap');
+body {
+    background-color: #FFFCEA;
+    font-family: 'Gilda Display', serif;
+    font-size: 1.2rem;
+    color: #373333;
+    line-height: 130%;}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 3px;
+    font-size: 4rem;
+    color: #5271FF;
+}    
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    color: #5271FF;
+}
+
+footer {
+    font-size: 8pt;
+    background-color: #5271FF;
+    color: #ffffff;
+    text-align: center;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+.vertical-center {
+margin: 0;
+position: absolute;
+top: 30%;
+bottom: 50%;
+right: 40%;
+left: 40%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+  }
