@@ -32,9 +32,78 @@ footer {
 margin: 0;
 position: absolute;
 top: 30%;
-bottom: 50%;
-right: 40%;
-left: 40%;
+bottom: 20%;
+right: 30%;
+left: 30%;
 -ms-transform: translateY(-50%);
 transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: #FFFCEA;
+        font-family: 'Gilda Display', serif;
+        font-size: 1.0rem;
+        color: #373333;
+        line-height: 130%;}
+    
+    h1 {
+        font-family: 'Cormorant Garamond', serif;
+        letter-spacing: 3px;
+        font-size: 3rem;
+        color: #5271FF;
+    }    
+    
+    h2 {
+        font-family: 'Cormorant Garamond', serif;
+        letter-spacing: 3px;
+        font-size: 2.0rem;
+        color: #5271FF;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: #FFFCEA;
+        font-family: 'Gilda Display', serif;
+        font-size: 1.0rem;
+        color: #373333;
+        line-height: 130%;}
+    
+    h1 {
+        font-family: 'Cormorant Garamond', serif;
+        letter-spacing: 3px;
+        font-size: 2.0rem;
+        color: #5271FF;
+    }    
+    
+    h2 {
+        font-family: 'Cormorant Garamond', serif;
+        letter-spacing: 3px;
+        font-size: 1.5rem;
+        color: #5271FF;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        background-color: #FFFCEA;
+        font-family: 'Gilda Display', serif;
+        font-size: 0.9rem;
+        color: #373333;
+        line-height: 130%;}
+    
+    h1 {
+        font-family: 'Cormorant Garamond', serif;
+        letter-spacing: 3px;
+        font-size: 1.5rem;
+        color: #5271FF;
+    }    
+    
+    h2 {
+        font-family: 'Cormorant Garamond', serif;
+        letter-spacing: 3px;
+        font-size: 1.0rem;
+        color: #5271FF;
+    }
 }
